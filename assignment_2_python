@@ -1,0 +1,513 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "name": "assignment-2-python.",
+      "gpuType": "T4",
+      "authorship_tag": "ABX9TyORn4BjdM0RBB8FhtsXaWfI",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    },
+    "accelerator": "GPU"
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Maha1330/Assignment-1-Basics-of-python/blob/main/assignment_2_python\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "EYYHptH5dahw"
+      },
+      "outputs": [],
+      "source": [
+        "# What is data type?\n",
+        "# Data types are two types.\n",
+        "# Basic datatypes\n",
+        "# int-integer is a number lies between +infinity and _infinity.\n",
+        "# Float- it is in decimalform\n",
+        "# Complex _real number +imaginery number(j)\n",
+        "# Boolean-true or flase\n",
+        "# type Converstions"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "What is data type?\n",
+        "\n",
+        " .it is a classification of data based on its format,size.\n"
+      ],
+      "metadata": {
+        "id": "GuJ8LFaFRxYT"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "Data types are two types.\n",
+        "\n",
+        " .Basic and Advance"
+      ],
+      "metadata": {
+        "id": "S8nQjhcpRzzP"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "Basic datatypes\n",
+        "\n",
+        " .int\n",
+        " .float\n",
+        " .complex\n",
+        " .boolean"
+      ],
+      "metadata": {
+        "id": "IYahW7caTJku"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "int-integer is a number lies between +infinity and _infinity.\n",
+        "\n",
+        "In [6]:\n",
+        "x = 8"
+      ],
+      "metadata": {
+        "id": "pd-ja1liTJ6q"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "In[7]:\n",
+        "y = 10"
+      ],
+      "metadata": {
+        "id": "3r0GLHZwTKJr"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "In [8]:\n",
+        "z = 2"
+      ],
+      "metadata": {
+        "id": "W18ayzkXTKUf"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "In [9]:\n",
+        "a = _1"
+      ],
+      "metadata": {
+        "id": "gyIHVc6_TKWk"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "In [10]:\n",
+        "b = _5"
+      ],
+      "metadata": {
+        "id": "CWG25H2yTKZ-"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "In [11]:\n",
+        "c = _0"
+      ],
+      "metadata": {
+        "id": "Cgl3Jb6zVewH"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "In [12]:\n",
+        "n = 7"
+      ],
+      "metadata": {
+        "id": "w53TTMOhVeyx"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "Float- it is in decimalform\n",
+        "In [14]:\n",
+        "x = 3.14"
+      ],
+      "metadata": {
+        "id": "wcFag-kQVe4a"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "In [15]:\n",
+        "y = 1.2"
+      ],
+      "metadata": {
+        "id": "9cHjDr4sVfCk"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "In [16]:\n",
+        "z = 4.35"
+      ],
+      "metadata": {
+        "id": "7kTl-Og4VfEw"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "In [17]:\n",
+        "pi = 3.1452"
+      ],
+      "metadata": {
+        "id": "ENuH1vtkVfG1"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "In [18]:\n",
+        "distance = 125.7"
+      ],
+      "metadata": {
+        "id": "GcTGH-eRVfIw"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "In [19]:\n",
+        "average = 80.7"
+      ],
+      "metadata": {
+        "id": "AsMT8KdEVfKo"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "In [20]:\n",
+        "height = 175.5"
+      ],
+      "metadata": {
+        "id": "xD4yBHnXVfOA"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "Complex _real number +imaginery number(j)\n",
+        "In [21]:\n",
+        "x = 3 + 5j"
+      ],
+      "metadata": {
+        "id": "ZgLuAWJJXw6f"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "In [22]:\n",
+        "y = 1 + 2j"
+      ],
+      "metadata": {
+        "id": "D2U3LZB1Xw9B"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "In [23]:\n",
+        "z = _1 _ 4j"
+      ],
+      "metadata": {
+        "id": "0V7IuqQ1Xw_i"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "In [24]:\n",
+        "a = 2 _ 3j"
+      ],
+      "metadata": {
+        "id": "vc9qwcH7XxCC"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "In [25]:\n",
+        "b = 3 + 1j"
+      ],
+      "metadata": {
+        "id": "HXmZAbPYXxEo"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "In [26]:\n",
+        "c = 0.5 +0j"
+      ],
+      "metadata": {
+        "id": "QcO6d8PYXxG6"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "Boolean-true or flase\n",
+        "In [27]:\n",
+        "x = 15 > 7\n"
+      ],
+      "metadata": {
+        "id": "PjNdGDzFXxJf"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "In [30]:\n",
+        "y = 2 > 4"
+      ],
+      "metadata": {
+        "id": "XWgDcAPrXxTj"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "In [31]:\n",
+        "c = 7 > 11"
+      ],
+      "metadata": {
+        "id": "xlseEcluXxWD"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "In [32]:\n",
+        "a = 5 < 1"
+      ],
+      "metadata": {
+        "id": "TeIhTgjPXxYI"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "type Converstions\n",
+        "In [33]:\n",
+        "x = 9\n",
+        "print(type(x))\n",
+        "<class 'int'>"
+      ],
+      "metadata": {
+        "id": "yD_sxQtMXxaI"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "In [34]:\n",
+        "age = 38\n",
+        "print(type(age))\n",
+        "<class 'int'>"
+      ],
+      "metadata": {
+        "id": "z_qIFWk4ax_X"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "In[35]:\n",
+        "x = 3.14\n",
+        "print(type(x))\n",
+        "<class'float'>"
+      ],
+      "metadata": {
+        "id": "XGTQLHJYayCi"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "aIn[36]:\n",
+        "pi = 3.1452\n",
+        "print(type(pi))\n",
+        "<class'float'>"
+      ],
+      "metadata": {
+        "id": "JPQ7BvkQayFI"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "In[37]:\n",
+        "x = 3 + 5j\n",
+        "print(type(x))\n",
+        "<class'complex'>"
+      ],
+      "metadata": {
+        "id": "p7OUhofAayHq"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "In[38]:\n",
+        "y = 1 + 2j\n",
+        "print(type(y))\n",
+        "<class'complex'>"
+      ],
+      "metadata": {
+        "id": "qD2DZskdayKQ"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "In[39]:\n",
+        "a = 2 _ 3j\n",
+        "print(type(a))\n",
+        "<class'complex'>"
+      ],
+      "metadata": {
+        "id": "x6cN6_nQayNs"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "In[40]:\n",
+        "a = 14 > 5\n",
+        "print(type(a))\n",
+        "< class'bool'>"
+      ],
+      "metadata": {
+        "id": "BM68XrkMXxca"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "In[41]:\n",
+        "b = 3 > 1\n",
+        "print(type(b))\n",
+        "<class'bool'>"
+      ],
+      "metadata": {
+        "id": "7WyQuhepfRDa"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
